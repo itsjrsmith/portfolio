@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>find josh</title>
+</head>
+<body>
+    <!--  HEADER  -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav_logo"><span class="home_title-color">josh</span></a>
+            </div>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">about</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">skills</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link">work</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">contact</a></li>
+                    <i class='darkmode-btn bx bxs-toggle-left nav_item'></i>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="1-main">
+        <!--  HOME  -->
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">i'm <span class="home_title-color">josh,</span><br>a web developer</h1>
+                <a href="#contact" class="button">contact</a>
+                <br>
+                <a href="" class="home_social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/itsjrsmith" target="_blank" class="home_social-icon"><i class='bx bxl-github' ></i></a>
+                <a href="tel:6239996947" class="home_social-icon"><i class="bx bxs-phone-call"></i></a>
+            </div>
+            <div class="home_social">
+            </div>
+            <div class="home_img">
+                <img src="img/jlogo1.jpg" alt="">
+            </div>
+        </section>
+        <!--  ABOUT  -->
+        <section class="about section" id="about">
+            <h2 class="section-title">about</h2>
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="img/image3.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about_subtitle">i'm josh</h2>
+                    <p>web developer - i want to learn and sharpen my skills in the front end.</p>
+                </div>
+            </div>
+        </section>
+        <!--  SKILLS  -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">skills</h2>
+            <div class="skills_container bd-grid">
+                <div>
+                    
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='bx bxl-html5 skills_icon' ></i>
+                            <span class="skills">HTML5</span>
+                        </div>
+                    
+                        <div class="skills_bar skills_html"></div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='bx bxl-css3 skills_icon' ></i>
+                            <span class="skills">CSS3</span>
+                        </div>
+                        <div class="skills_bar skills_css"></div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='bx bxl-javascript skills_icon' ></i>
+                            <span class="skills">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills_bar skills_javaScript"></div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='bx bxl-react skills_icon' ></i>
+                            <span class="skills">REACT</span>
+                        </div>
+                        <div class="skills_bar skills_react"></div>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/skillsimg.jpeg" alt="" class="skills_img">
+                </div>
+            </div>
+        </section>
+        <!--  WORK  -->
+        <section class="work section" id="work">
+            <h2 class="section-title">work</h2>
+            <div class="work_container bd-grid">
+                <div class="work_img">
+                    <img src="img/tetris.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="img/movie.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="img/formvalidation.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="img/tetris.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--  CONTACT  -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">contact</h2>
+            <div class="contact_container bd-grid">
+                <form action="" class="contact_form">
+                    <input type="text" placeholder="name" class="contact_input">
+                    <input type="text" placeholder="email" class="contact_input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+                    <input type="button" value="submit" class="contact_button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer_title">Josh</p>
+        <div class="footer_social">
+            <a href="#" class="footer_icon"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="https://github.com/itsjrsmith" class="footer_icon" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="tel:6239996947" class="footer_icon"><i class='bx bxs-phone-call'></i></a>
+        </div>
+        <p>&#169; 2021 copyright all rights reserved</p>
+    </footer>
+
+    <!--  EMAIL SETUP  -->
+    <script src="app.js"></script>
+    <!--  SCROLL REVEAL LIBRARY  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--  SCRIPT.JS  -->
+    <script src="script.js"></script>
+    <!--  CLICK EFFECT -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
