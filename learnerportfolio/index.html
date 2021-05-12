@@ -125,13 +125,14 @@
         <section class="contact section" id="contact">
             <h2 class="section-title">contact</h2>
             <div class="contact_container bd-grid">
-                <form action="" class="contact_form">
-                    <input type="text" placeholder="name" class="contact_input">
-                    <input type="text" placeholder="email" class="contact_input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
-                    <input type="button" value="submit" class="contact_button button">
+                <form action="https://formspree.io/f/xeqvaodz" method="POST" class="contact_form">
+                    <input type="text" placeholder="name" class="contact_input" name="name">
+                    <input type="email" placeholder="email" class="contact_input" name="email">
+                    <textarea name="message" placeholder="message" id="" cols="0" rows="10" class="contact_input"></textarea>
+                    <button type="submit" value="submit" class="contact_button button">submit</button>
                 </form>
             </div>
+            <div id="status"></div>
         </section>
     </main>
     <footer class="footer">

@@ -63,4 +63,10 @@ sr.reveal('.work_img', {interval: 200})
 // SCROLL CONTACT
 sr.reveal('.contact_input', {interval: 200})
 
+
+// CONTACT FORM
+
+
+
+
 // CLICK EFFECT
