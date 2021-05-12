@@ -65,7 +65,28 @@ sr.reveal('.contact_input', {interval: 200})
 
 
 // CONTACT FORM
-
+const form = document.getElementById("my-form");
+    
+async function handleSubmit(event) {
+  event.preventDefault();
+  let status = document.getElementById("my-form-status");
+  let data = new FormData(event.target);
+  fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+        'Accept': 'application/json'
+    }
+  }).then(response => {
+    status.innerHTML = "I'll get back to you!";
+    status.classList.add('success');
+    form.reset()
+  }).catch(error => {
+    status.innerHTML = "Oops! There was a problem submitting your form"
+    status.classList.add('error');
+  });
+}
+form.addEventListener("submit", handleSubmit)
 
 
 

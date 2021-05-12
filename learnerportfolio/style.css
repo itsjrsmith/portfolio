@@ -404,7 +404,7 @@ img {
   margin-left: auto;
 }
 
-#status {
+#my-form-status {
   width: 40%;
   max-width: 200px;
   text-align: center;
@@ -413,18 +413,18 @@ img {
   border-radius: 8px;
 }
 
-#status.success {
+#my-form-status.success {
   background-color: lightseagreen;
   animation: status 2s ease-in-out forwards;
 }
 
-#status.error {
+#my-form-status.error {
   background-color: orangered;
   color: white;
   animation: status 3s ease-in-out forwards;
 }
 
-@keyframes status {
+@keyframes my-form-status {
   0% {
     opacity: 1;
     pointer-events: all;
