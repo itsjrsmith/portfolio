@@ -386,6 +386,11 @@ img {
   transition: 1s;
 }
 
+.work_img.scoville img {
+  height: 179px;
+  width: 100%;
+}
+
 .workword {
   color: var(--first-color);
   font-weight: bold;
