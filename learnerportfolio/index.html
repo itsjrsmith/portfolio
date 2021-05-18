@@ -8,21 +8,21 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>find josh</title>
 </head>
-<body>
+<body class="dark">
     <!--  HEADER  -->
-    <header class="l-header">
+    <header class="l-header dark">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav_logo"><span class="home_title-color">josh</span></a>
+                <a href="#" class="nav_logo"><span class="home_title-color dark">josh</span></a>
             </div>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="#home" class="nav_link active">home</a></li>
-                    <li class="nav_item"><a href="#about" class="nav_link">about</a></li>
-                    <li class="nav_item"><a href="#skills" class="nav_link">skills</a></li>
-                    <li class="nav_item"><a href="#work" class="nav_link">work</a></li>
-                    <li class="nav_item"><a href="#contact" class="nav_link">contact</a></li>
-                    <i class='darkmode-btn bx bxs-toggle-left nav_item'></i>
+                    <li class="nav_item"><a href="#home" class="nav_link dark active">home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link dark">about</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link dark">skills</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link dark">work</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link dark">contact</a></li>
+                    <i class='darkmode-btn bx bxs-toggle-left nav_item' id="dark-btn"></i>
                 </ul>
             </div>
             <div class="nav_toggle" id="nav-toggle">
@@ -34,22 +34,22 @@
         <!--  HOME  -->
         <section class="home bd-grid" id="home">
             <div class="home_data">
-                <h1 class="home_title">i'm <span class="home_title-color">josh,</span><br>a web developer</h1>
-                <a href="#contact" class="button">contact</a>
+                <h1 class="home_title">i'm <span class="home_title-color dark">josh,</span><br>a web developer</h1>
+                <a href="#contact" class="button dark">contact</a>
                 <br>
-                <a href="" class="home_social-icon"><i class='bx bxl-linkedin-square' ></i></a>
-                <a href="https://github.com/itsjrsmith" target="_blank" class="home_social-icon"><i class='bx bxl-github' ></i></a>
-                <a href="tel:6239996947" class="home_social-icon"><i class="bx bxs-phone-call"></i></a>
+                <a href="" class="home_social-icon dark"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/itsjrsmith" target="_blank" class="home_social-icon dark"><i class='bx bxl-github' ></i></a>
+                <a href="tel:6239996947" class="home_social-icon dark"><i class="bx bxs-phone-call"></i></a>
             </div>
             <div class="home_social">
             </div>
             <div class="home_img">
-                <img src="img/jlogo1.jpg" alt="">
+                <img src="img/jdark.png" alt="">
             </div>
         </section>
         <!--  ABOUT  -->
         <section class="about section" id="about">
-            <h2 class="section-title">about</h2>
+            <h2 class="section-title dark">about</h2>
             <div class="about_container bd-grid">
                 <div class="about_img">
                     <img src="img/image3.jpg" alt="">
@@ -68,11 +68,11 @@
                     
                     <div class="skills_data">
                         <div class="skills_names">
-                            <i class='bx bxl-html5 skills_icon' ></i>
-                            <span class="skills">HTML5</span>
+                            <i class='bx bxl-html5 skills_icon dark' ></i>
+                            <span class="skills dark">HTML5</span>
                         </div>
                     
-                        <div class="skills_bar skills_html"></div>
+                        <div class="skills_bar skills_html dark"></div>
                     </div>
                     <div class="skills_data">
                         <div class="skills_names">
@@ -108,10 +108,10 @@
                 <div class="work_img scoville">
                     <img src="img/scoville.jpg" alt="">
                     <br>
-                    <span class="workword">Scoville Pools Website</span>
+                    <span class="workword dark">Scoville Pools Website</span>
                     <br>
-                    <button onclick="window.open('https:/github.com/itsjrsmith/scovillepools', '_blank'); return false;" class="work-btn">code</button>
-                    <button class="work-btn">live</button>
+                    <button onclick="window.open('https:/github.com/itsjrsmith/scovillepools', '_blank'); return false;" class="work-btn dark">code</button>
+                    <button class="work-btn dark">live</button>
                 </div>
                 <div class="work_img">
                     <img src="img/tetris1.png" alt="">
@@ -160,10 +160,10 @@
             <h2 class="section-title">contact</h2>
             <div class="contact_container bd-grid">
                 <form id="my-form" action="https://formspree.io/f/xeqvaodz" method="POST" class="contact_form">
-                    <input type="text" placeholder="name" class="contact_input" name="name">
+                    <input type="text" placeholder="name" class="contact_input dark" name="name">
                     <input type="email" placeholder="email" class="contact_input" name="email">
                     <textarea name="message" placeholder="message" id="" cols="0" rows="10" class="contact_input"></textarea>
-                    <button id="contactbtn" type="submit" value="submit" class="contact_button button">submit</button>
+                    <button id="contactbtn" type="submit" value="submit" class="contact_button button dark">submit</button>
                 </form>
             </div>
             <div id="my-form-status"></div>
