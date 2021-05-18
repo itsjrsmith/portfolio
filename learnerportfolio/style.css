@@ -412,6 +412,8 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   transition: all 0.2s ease-out;
+  outline: none;
+  border: none;
 }
 
 .work-btn:hover {
