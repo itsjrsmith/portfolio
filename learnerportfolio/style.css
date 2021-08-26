@@ -414,6 +414,7 @@ img {
   transition: all 0.2s ease-out;
   outline: none;
   border: none;
+  display: block;
 }
 
 .work-btn:hover {
